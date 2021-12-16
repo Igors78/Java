@@ -1,6 +1,6 @@
 {
 	"java.project.sourcePaths": [
-		"hello",
-		"helloworld/src"
+		"helloworld/src",
+		"beer/src"
 	]
 }

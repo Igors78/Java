@@ -1,6 +1,7 @@
 {
 	"java.project.sourcePaths": [
 		"helloworld/src",
-		"beer/src"
+		"beer/src",
+		"bubblesort/src"
 	]
 }

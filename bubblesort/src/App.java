@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class App {
 	public static void main(String[] args) throws Exception {
@@ -9,11 +10,10 @@ public class App {
 				arr[i] = c.nextInt();
 			}
 		}
-		for (int i = 0; i < 10; i++) {
-			System.out.print(arr[i]);
-			System.out.print(" ");
-		}
-		System.out.println();
+		String str = Arrays.toString(arr);
+		System.out.println("Initial array");
+		System.out.println(str);
+		System.out.println("Sorting step by step");
 		int tmp, i = 0, size = arr.length - 1;
 		boolean swap = true;
 		while (swap) {
@@ -28,17 +28,13 @@ public class App {
 				}
 				i++;
 			}
-			for (int j = 0; j < 10; j++) {
-				System.out.print(arr[j]);
-				System.out.print(" ");
-			}
-			System.out.println("\nBubbling");
+			str = Arrays.toString(arr);
+			System.out.println(str);
+			System.out.println("Bubbling");
 			size--;
 		}
-		for (int k = 0; k < 10; k++) {
-			System.out.print(arr[k]);
-			System.out.print(" ");
-		}
-		System.out.println("\nSorted with bubble sort");
+		str = Arrays.toString(arr);
+		System.out.println(str);
+		System.out.println("Sorted with bubble sort");
 	}
 }

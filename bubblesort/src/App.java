@@ -2,8 +2,8 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class App {
-	public static void main(String[] args) throws Exception {
-		int[] arr = new int[10];
+	public static void main(String args[]) throws Exception {
+		int arr[] = new int[10];
 		try (Scanner c = new Scanner(System.in)) {
 			System.out.println("Enter 10 numbers to sort");
 			for (int i = 0; i < 10; i++) {

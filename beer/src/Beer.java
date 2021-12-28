@@ -1,5 +1,5 @@
 public class Beer {
-	public static void main(String[] args) throws Exception {
+	public static void main(String args[]) throws Exception {
 		int beerNum = 10;
 		String word = "bottles ";
 

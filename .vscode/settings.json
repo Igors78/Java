@@ -3,6 +3,7 @@
 		"helloworld/src",
 		"bubblesort/src",
 		"beer/src",
-		"arraycopy/src"
+		"arraycopy/src",
+		"GuessingGame/src"
 	]
 }
